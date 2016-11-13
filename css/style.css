@@ -1,0 +1,108 @@
+header {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    border: solid rgb(78,167,202) 2px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+header > h1{
+    margin-bottom: 0.1em;
+}
+
+header > p {
+    margin-top: 0.1em;
+    color: rgb(78,167,202);
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10, #i11, #i12 {
+    width: 50px;
+    text-align: right;
+}
+
+body {
+    background-image: linear-gradient(rgba(8,36,79,0.9), rgba(8,36,79,0.9)),
+                      url(../img/floorPlanBackground.png);
+    
+}
+
+#pageBody {
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 1% 2% 1% 2%;
+    background-color: rgba(240,248,255,0.8);
+    border-radius: 5px;
+    height: 75vh;
+}
+
+.columns {
+    text-align: center;
+    width: 32%;
+    height: 73vh;
+    float: left;
+    overflow: auto;
+}
+
+.valueInput {
+    width: 75px;
+    margin-bottom: 10px;
+}
+
+.timeframe {
+    margin-bottom: 10px;
+}
+
+#containerLabels {
+    text-align:right;
+    font-weight: bold;
+    max-width: 280px;
+}
+
+#containerLabels > .labels {
+    margin-bottom: 0.5em;
+}
+#containerCentre{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+    #explanationText{
+        font-family: sans-serif;
+        font-size: 0.8em;
+    }
+    #quotationLeft {
+        height: 100px;
+        width: 100px;
+        float: left;
+    }
+
+    #quotationRight {
+        height: 100px;
+        width: 100px;
+        float: right;
+    }
+
+    .resultText{
+        font-size: 38px;
+        display: inline;
+
+    }  
+    #resultLabel{
+        display: inline-block;    
+    }
+
+#chartContainer {
+    height:38vh;
+    width:99%;
+}
+
+#containerErrorMsg > div > span {
+    color: red;
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+#houseIcon{
+    max-width: 50%;
+    height: auto;
+}
